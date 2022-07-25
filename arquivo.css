@@ -1,0 +1,142 @@
+body {
+
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family:'Times New Roman', Times, serif
+
+}
+  
+*{
+
+  margin: 0;
+
+}
+  
+#caixa {
+
+  width: 90%;
+  max-width: 400px;
+  margin-inline: auto;
+  margin-top: 170px;
+
+}
+  
+h1 {
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+  
+p {
+
+  margin-bottom: 30px;
+
+}
+  
+button {
+
+  max-width: 350px;
+  width: 349px;
+  padding: 19px;
+  border-radius: 7px;
+  border: none;
+
+}
+
+input {
+
+  max-width: 350px;
+  width: 311px;
+  padding: 19px;
+  border-radius: 7px;
+  border: none;
+
+}
+  
+input {
+
+  margin-bottom: 9px;
+
+}
+  
+button {
+
+  background-color: rgb(30, 131, 255);
+  color: white;
+  transition: filter 0.2s;
+
+}
+  
+button:hover {
+
+  filter: opacity(0.7);
+  cursor: pointer;
+
+}
+  
+#minhapergunta {
+
+  margin-top: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  filter: opacity(0.5); 
+
+}
+  
+  
+#resposta123 div {
+
+  filter: opacity(0.5);
+  font-weight: normal;
+  margin-top: 8px;
+
+}
+  
+#resposta123 {
+
+  font-weight: normal
+    
+}
+  
+#resposta123 {
+
+  transition: opacity 1s;
+
+}
+
+img {
+
+  width: 200px;
+
+}
+
+@media (max-width: 800px) {
+
+  #caixa {
+
+    margin-top: 115px;
+    text-align: center;
+
+  }
+
+  h1 {
+
+    font-size: 27px;
+  }
+
+  button {
+
+    max-width: 270px;
+    width: 100%;
+
+  }
+
+  input {
+
+    max-width: 235px;
+    width: 100%;
+
+  }
+
+}
